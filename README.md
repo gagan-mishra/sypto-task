@@ -2,7 +2,7 @@
 
 ## Note
 Please note that while this project has been set up and programmed to function correctly, I was unable to perform final testing and debugging due to the lack of an access token. I am confident in the setup and the implementation; however, the final testing phase could not be completed. Access to the necessary token would enable me to verify and fine-tune the functionalities.
-I have provided dummy_api_key in the .env file, but project might not work as expected. If you have the access_token then paste it on the first line, and then I hope the project will work correctly.
+I have provided dummy_api_key in the .env file, but project might not work as expected. If you have the access_token then paste it on the first line (comment the last line, and uncomment the first one ofcourse), and then I hope the project will work correctly.
 
 ## Overview
 This repository contains a full-stack application with a React-based frontend and a Node.js backend, all housed within a single project directory. The project is structured into two main folders: `client` for the React application and `server` for the Node.js backend.
