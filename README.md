@@ -20,5 +20,37 @@ Navigate to the server directory from the project root and install its dependenc
 cd server
 npm install
 
+```
+### Configuring CORS
+The server uses CORS to restrict resources to the web page from another domain. If your client is running on a different port, replace the origin in the CORS configuration which is in `server/app.js`:
+```bash
+app.use(
+  cors({
+    origin: "http://localhost:3001" // Replace with the port where your React app is running
+  })
+);
+```
 
-### adfasdf
+### Setting up the Client
+Open a new terminal, navigate to the client directory from the project root, and install its dependencies:
+```bash
+cd client
+npm install
+```
+
+### Running the Application
+You need to run both the client and the server simultaneously in different terminal windows for the application to work fully.
+
+# Starting the Server
+In the server directory:
+
+```bash
+npm start
+```
+
+### Starting the Client
+In the client directory:
+
+```bash
+npm start
+```
