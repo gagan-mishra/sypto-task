@@ -1,4 +1,4 @@
-# Project Title
+# Sypto Task
 
 ## Note
 Please note that while this project has been set up and programmed to function correctly, I was unable to perform final testing and debugging due to the lack of an access token. I am confident in the setup and the implementation; however, the final testing phase could not be completed. Access to the necessary token would enable me to verify and fine-tune the functionalities.
@@ -41,7 +41,7 @@ npm install
 ### Running the Application
 You need to run both the client and the server simultaneously in different terminal windows for the application to work fully.
 
-# Starting the Server
+### Starting the Server
 In the server directory:
 
 ```bash
